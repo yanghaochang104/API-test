@@ -1,0 +1,38 @@
+<%include ./partials/header%>
+
+	<!--query section-->
+		<div class= "banner" >
+			<form class="form">
+				<h1>How's Your Next Destination?</h1>
+				<h5>check for the weather and geographical infos :</h5>
+				<select>
+					<option value="" disabled selected>-- choose your destination -- </option>
+					<option value="Taipei">Taipei</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Kaohsiung">Kaohsiung</option>
+					<option value="Tokyo">Tokyo</option>
+					<option value="Seoul">Seoul</option>
+					<option value="Washington, D.C.">Washington</option>
+					<option value="Berlin">Berlin</option>
+					<option value="Paris">Paris</option>
+					<option value="London">London</option>
+					<option value="Moscow">Moscow</option>
+					<option value="Ankara">Ankara</option>
+					<option value="Cairo">Cairo</option>
+					<option value="Bueno Aires">Bueno Aires</option>
+					<option value="New Delhi">New Delhi</option>
+				</select>
+			</form>
+		</div>
+	<!--display section-->
+	
+		<div class="content invisible">
+			<div id="map"></div>
+		</div>
+
+		<div class="footer">
+			<p>API source : weather - apixu.com, map - google map</p>
+		</div>
+ 		
+<%include ./partials/footer%>
+  
